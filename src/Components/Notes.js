@@ -46,7 +46,7 @@ const Notes = () => {
    }, [notes]);
 
    return (
-      <div className="grid grid-cols-3 mx-auto gap-[1rem] max-w-[1200px]">
+      <div className="grid grid-cols-3 mx-auto gap-[1rem] max-w-[1200px] break-words">
          {notes.map((note) => (
             <Note
                key={note.id}
